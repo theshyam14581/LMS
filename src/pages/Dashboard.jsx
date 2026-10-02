@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Card from "../components/Card";
 import users from "../../users.json";
 import Hero from "../components/Hero";
+import "./Dashboard.css";
 
 const Dashboard = () => {
   return (
