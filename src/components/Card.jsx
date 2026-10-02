@@ -1,21 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const Card = ({ booksDetails }) => {
+const Card = ({ bookData }) => {
   return (
-    <div>
-        {
-            booksDetails.map((user) => {
-                return(
-                    <div key={user.id}>
-                        <img src={user.image} alt={user.name} />
-                        <h1>{user.name}</h1>
-                        <p>{user.email}</p>
-                    </div>
-                )
-            }
-        )}   
+    <div className="card-container">
+      {bookData.map((user) => {
+        return (
+          <div key={user.id} className="card">
+            <img  src={user.image} alt={user.title} />
+            <h1>{user.title}</h1>
+            <p>{user.author}</p>
+          </div>
+        );
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

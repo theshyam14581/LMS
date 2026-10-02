@@ -1,15 +1,21 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-
+import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Card from "../components/Card";
+import users from "../../users.json";
+import Hero from "../components/Hero";
 
 const Dashboard = () => {
   return (
     <div>
-        <Navbar/>
-        <Footer/>
-    </div>
-  )
-}
+      <Navbar />
+      <Hero/>
 
-export default Dashboard
+      <Card bookData={users} />
+
+      <Footer />
+    </div>
+  );
+};
+
+export default Dashboard;
