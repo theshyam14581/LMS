@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 
 function Login() {
@@ -57,9 +58,11 @@ function Login() {
                         </a>
                     </div>
 
+                    <Link to='/' >
                     <button type="submit" className="login-btn">
                         LOGIN
                     </button>
+                    </Link>
 
                     <p className="signup-text">
                         Don't have an account?

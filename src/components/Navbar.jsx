@@ -16,6 +16,11 @@ function Navbar() {
                     Signup
                 </button>
             </Link>
+            <Link to="/cart">
+                <button className="login-btn">
+                    Cart
+                </button>
+            </Link>
 
         </nav>
     );

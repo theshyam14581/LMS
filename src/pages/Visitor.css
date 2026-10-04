@@ -1,0 +1,211 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&display=swap");
+
+
+.visit-container {
+  width: 90%;
+  max-width: 1200px;
+  min-height: 70vh;
+  margin: 40px auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(20, 20, 20, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+
+/* Book Image */
+.book-image {
+  width: 280px;
+  height: 400px;
+
+  object-fit: cover;
+  border-radius: 12px;
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.7),
+    0 0 25px rgba(220, 0, 0, 0.25);
+
+  transition: 0.4s ease;
+}
+
+.book-image:hover {
+  transform: scale(1.04);
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.8),
+    0 0 35px rgba(220, 0, 0, 0.5);
+}
+
+
+/* Book Title */
+.title-book {
+  width: 100%;
+  max-width: 800px;
+  margin: 25px 0 10px;
+
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+
+  color: white;
+  letter-spacing: 1px;
+}
+
+h1.title-book {
+  font-size: 42px;
+  text-transform: uppercase;
+  color: #e62429;
+  text-shadow: 0 0 15px rgba(230, 36, 41, 0.4);
+}
+
+h2.title-book {
+  margin-top: 5px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #cccccc;
+}
+
+
+/* Description */
+.book-desc {
+  width: 100%;
+  max-width: 800px;
+
+  margin: 25px auto;
+  padding: 20px;
+
+  text-align: center;
+
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.8;
+
+  color: #dddddd;
+
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid #e62429;
+  border-radius: 8px;
+}
+
+
+/* Price */
+.book-prize {
+  margin: 10px 0;
+
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+
+  color: #39ff14;
+}
+
+
+/* Category */
+.book-cate {
+  margin-top: 5px;
+
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+
+  color: #aaaaaa;
+}
+
+
+/* No Book Selected */
+.visit-container h1 {
+  color: #e62429;
+}
+
+
+/* Go Back Button */
+.visit-container button {
+  margin-top: 20px;
+  padding: 12px 30px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #e62429;
+  color: white;
+
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.visit-container button:hover {
+  background: #ff3136;
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 20px rgba(230, 36, 41, 0.4);
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+  .visit-container {
+    width: 90%;
+    margin: 25px auto;
+    padding: 25px 15px;
+  }
+
+  .book-image {
+    width: 220px;
+    height: 320px;
+  }
+
+  h1.title-book {
+    font-size: 30px;
+  }
+
+  h2.title-book {
+    font-size: 18px;
+  }
+
+  .book-desc {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 15px;
+  }
+
+  .book-prize {
+    font-size: 22px;
+  }
+}
+
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+  .visit-container {
+    padding: 20px 10px;
+  }
+
+  .book-image {
+    width: 180px;
+    height: 270px;
+  }
+
+  h1.title-book {
+    font-size: 25px;
+  }
+
+  h2.title-book {
+    font-size: 16px;
+  }
+
+  .book-desc {
+    font-size: 14px;
+  }
+}

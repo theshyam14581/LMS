@@ -1,14 +1,14 @@
 [
-  { "image":"public/books/iron-man.jpg" , "id": 1, "title": "IRON MAN", "author": "stan lee", "year": 1960, "genre": "Southern Gothic" },
-  { "image":"public/books/hulk.jpg" , "id": 2, "title": "HULK", "author": "stan lee", "year": 1949, "genre": "Dystopian" },
-  { "image":"public/books/dr-strange.jpg" , "id": 3, "title": "DR. STRANGE", "author": "stan lee", "year": 1813, "genre": "Romance" },
-  { "image":"public/books/funtastic-four.jpg" , "id": 4, "title": "THE FUNTASTIC FOUR", "author": "stan lee", "year": 1925, "genre": "Tragedy" },
-  { "image":"public/books/deadpool.jpg" , "id": 5, "title": "DEADPOOL", "author": "stan lee", "year": 1851, "genre": "Adventure" },
+  { "image":"public/books/iron-man.jpg" ,"wepons":"public/wepons/arc-reactor.png", "price":"200$", "id": 1, "title": "IRON MAN", "author": "stan lee", "year": 1960, "genre": "Southern Gothic" },
+  { "image":"public/books/hulk.jpg" , "id": 2, "title": "HULK", "price":"200$", "author": "stan lee", "year": 1949, "genre": "Dystopian" },
+  { "image":"public/books/dr-strange.jpg" , "id": 3, "title": "DR. STRANGE","price":"200$", "author": "stan lee", "year": 1813, "genre": "Romance" },
+  { "image":"public/books/funtastic-four.jpg" , "id": 4, "title": "THE FUNTASTIC FOUR","price":"200$", "author": "stan lee", "year": 1925, "genre": "Tragedy" },
+  { "image":"public/books/deadpool.jpg" , "id": 5, "title": "DEADPOOL","price":"200$", "author": "stan lee", "year": 1851, "genre": "Adventure" },
   { "image":"public/books/iron-doom.jpg" , "id": 6, "title": "IRON VS DOOM", "author": "stan lee", "year": 1869, "genre": "Historical Fiction" },
-  { "image":"public/books/loki.jpg" , "id": 7, "title": "THE LOKI", "author": "stan lee", "year": 1603, "genre": "Tragedy" },
-  { "image":"public/books/moon-knight.jpg" , "id": 8, "title": "THE MOON KNIGHT", "author": "stan lee", "year": -800, "genre": "Epic" },
-  { "image":"public/books/new-day.jpg" , "id": 10, "title": "SPIDER MAN", "author": "stan lee", "year": 1951, "genre": "Realistic Fiction" },
-  { "image":"public/books/the-wolvrine.jpg" , "id": 11, "title": "THE WOLVARINE", "author": "stan lee", "year": 1937, "genre": "Fantasy" },
-  { "image":"public/books/wanda-vision.jpg" , "id": 12, "title": "WANDA VISION", "author": "stan lee", "year": 1953 },
-  { "image":"public/books/x-man.jpg" , "id": 20, "title": "X-MEN", "author": "stan lee", "year": 1943, "genre": "Fable" }
+  { "image":"public/books/loki.jpg" , "id": 7, "title": "THE LOKI","price":"200$", "author": "stan lee", "year": 1603, "genre": "Tragedy" },
+  { "image":"public/books/moon-knight.jpg" , "id": 8, "title": "THE MOON KNIGHT","price":"200$", "author": "stan lee", "year": -800, "genre": "Epic" },
+  { "image":"public/books/new-day.jpg" , "id": 10, "title": "SPIDER MAN", "price":"200$","author": "stan lee", "year": 1951, "genre": "Realistic Fiction" },
+  { "image":"public/books/the-wolvrine.jpg" , "id": 11, "title": "THE WOLVARINE", "price":"200$","author": "stan lee", "year": 1937, "genre": "Fantasy" },
+  { "image":"public/books/wanda-vision.jpg" , "id": 12, "title": "WANDA VISION","price":"200$", "author": "stan lee", "year": 1953 },
+  { "image":"public/books/x-man.jpg" , "id": 20, "title": "X-MEN","price":"200$", "author": "stan lee", "year": 1943, "genre": "Fable" }
 ]
