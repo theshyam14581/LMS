@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&display=swap');
+
+.signup-form h1,
+.signup-form h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.signup-form {
+    font-family: 'Oswald', sans-serif;
+}
+
+.label-tag,
+.sign-btn {
+    font-family: 'Oswald', sans-serif;
+}

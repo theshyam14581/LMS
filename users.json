@@ -2,7 +2,7 @@
   { "image":"public/books/iron-man.jpg" , "id": 1, "title": "IRON MAN", "author": "stan lee", "year": 1960, "genre": "Southern Gothic" },
   { "image":"public/books/hulk.jpg" , "id": 2, "title": "HULK", "author": "stan lee", "year": 1949, "genre": "Dystopian" },
   { "image":"public/books/dr-strange.jpg" , "id": 3, "title": "DR. STRANGE", "author": "stan lee", "year": 1813, "genre": "Romance" },
-  { "image":"public/books/funtastic.jpg" , "id": 4, "title": "THE FUNTASTIC FOUR", "author": "stan lee", "year": 1925, "genre": "Tragedy" },
+  { "image":"public/books/funtastic-four.jpg" , "id": 4, "title": "THE FUNTASTIC FOUR", "author": "stan lee", "year": 1925, "genre": "Tragedy" },
   { "image":"public/books/deadpool.jpg" , "id": 5, "title": "DEADPOOL", "author": "stan lee", "year": 1851, "genre": "Adventure" },
   { "image":"public/books/iron-doom.jpg" , "id": 6, "title": "IRON VS DOOM", "author": "stan lee", "year": 1869, "genre": "Historical Fiction" },
   { "image":"public/books/loki.jpg" , "id": 7, "title": "THE LOKI", "author": "stan lee", "year": 1603, "genre": "Tragedy" },

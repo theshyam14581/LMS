@@ -3,7 +3,9 @@ import "./Card.css";
 
 const Card = ({ bookData }) => {
   return (
-    <div className="card-container">
+   <div className="card-container1">
+    <h1 className="card-title">Marvel Books</h1>
+     <div className="card-container">
       {bookData.map((user) => {
         return (
           <div key={user.id} className="card">
@@ -13,6 +15,7 @@ const Card = ({ bookData }) => {
           </div>
         );
       })}
+    </div>
     </div>
   );
 };

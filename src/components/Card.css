@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&display=swap");
+
+.card-container1 {
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 30px;
+    box-sizing: border-box;
+
+    background:
+        radial-gradient(
+            circle at top center,
+            rgba(255, 0, 0, 0.15),
+            transparent 40%
+        ),
+        linear-gradient(
+            135deg,
+            #030303,
+            #120000,
+            #050505
+        );
+}
+
+.card-title {
+    margin: 0 0 45px;
+
+    text-align: center;
+
+    color: #ffffff;
+
+    font-family: "Bebas Neue", sans-serif;
+
+    font-size: 58px;
+    font-weight: 400;
+
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    text-shadow:
+        0 0 10px rgba(255, 0, 0, 0.8),
+        0 0 25px rgba(255, 0, 0, 0.5),
+        0 0 45px rgba(255, 0, 0, 0.3);
+}
+
+.card-container {
+    width: 100%;
+    max-width: 1400px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+}
+
+.card {
+    position: relative;
+
+    width: 100%;
+    height: 470px;
+
+    padding: 18px;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: flex-end;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(35, 35, 35, 0.95),
+            rgba(5, 5, 5, 0.98)
+        );
+
+    border: 1px solid rgba(255, 0, 0, 0.45);
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.8),
+        0 0 15px rgba(255, 0, 0, 0.25),
+        inset 0 0 20px rgba(255, 0, 0, 0.06);
+
+    transform-style: preserve-3d;
+
+    transition:
+        transform 0.45s ease,
+        box-shadow 0.45s ease,
+        border-color 0.45s ease;
+}
+
+.card::before {
+    content: "";
+
+    position: absolute;
+
+    width: 220px;
+    height: 220px;
+
+    top: 40px;
+
+    border-radius: 50%;
+
+    background: #ff0000;
+
+    filter: blur(80px);
+
+    opacity: 0.12;
+
+    transition: 0.45s ease;
+}
+
+.card:hover::before {
+    opacity: 0.35;
+
+    transform: scale(1.2);
+}
+
+.card:hover {
+    transform:
+        translateY(-12px)
+        rotateX(3deg)
+        rotateY(-3deg)
+        scale(1.03);
+
+    border-color: #ff0000;
+
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.9),
+        0 0 25px rgba(255, 0, 0, 0.65),
+        0 0 50px rgba(255, 0, 0, 0.25),
+        inset 0 0 25px rgba(255, 0, 0, 0.1);
+}
+
+.card img {
+    position: relative;
+
+    width: 100%;
+    height: 310px;
+
+    object-fit: contain;
+
+    display: block;
+
+    z-index: 2;
+
+    transform: translateZ(35px);
+
+    filter:
+        drop-shadow(
+            0 15px 10px rgba(0, 0, 0, 0.9)
+        )
+        drop-shadow(
+            0 0 10px rgba(255, 0, 0, 0.25)
+        );
+
+    transition:
+        transform 0.45s ease,
+        filter 0.45s ease;
+}
+
+.card:hover img {
+    transform:
+        translateZ(55px)
+        scale(1.06);
+
+    filter:
+        drop-shadow(
+            0 20px 15px rgba(0, 0, 0, 1)
+        )
+        drop-shadow(
+            0 0 20px rgba(255, 0, 0, 0.6)
+        );
+}
+
+.card h1 {
+    position: relative;
+
+    width: 100%;
+
+    margin: 15px 0 8px;
+
+    color: #ffffff;
+
+    font-family: "Bebas Neue", sans-serif;
+
+    font-size: 25px;
+
+    font-weight: 400;
+
+    letter-spacing: 1.5px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    z-index: 3;
+
+    transform: translateZ(45px);
+
+    text-shadow:
+        0 0 8px rgba(255, 0, 0, 0.7);
+}
+
+.card p {
+    position: relative;
+
+    width: 100%;
+
+    margin: 0;
+
+    padding: 8px 10px;
+
+    box-sizing: border-box;
+
+    color: #cccccc;
+
+    font-family: "Oswald", sans-serif;
+
+    font-size: 14px;
+
+    letter-spacing: 0.5px;
+
+    text-align: center;
+
+    background: rgba(255, 0, 0, 0.08);
+
+    border-left: 3px solid #ff0000;
+
+    border-radius: 4px;
+
+    z-index: 3;
+
+    transform: translateZ(30px);
+}
+
+.card::after {
+    content: "";
+
+    position: absolute;
+
+    bottom: 0;
+    left: 10%;
+
+    width: 80%;
+    height: 3px;
+
+    background: #ff0000;
+
+    box-shadow:
+        0 0 10px #ff0000,
+        0 0 25px rgba(255, 0, 0, 0.8);
+
+    transition: 0.45s ease;
+}
+
+.card:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card {
+        height: 460px;
+    }
+
+    .card img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 900px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .card-title {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-container1 {
+        padding: 35px 15px;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+    }
+
+    .card-title {
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+
+    .card {
+        height: 460px;
+    }
+
+    .card img {
+        height: 310px;
+    }
+}
