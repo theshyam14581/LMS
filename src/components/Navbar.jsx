@@ -1,12 +1,16 @@
 import { Link } from "react-router-dom";
+import "./Navbar.css"
 
 function Navbar() {
     return (
+        
+            
         <nav className="navbar">
 
-            <h2>Marvel LMS</h2>
-
-            <Link to="/login">
+            
+            <h1 className="heading1"> Marvel LMS</h1>
+            <div className="navbar">
+                <Link to="/login">
                 <button className="login-btn">
                     Login
                 </button>
@@ -21,8 +25,10 @@ function Navbar() {
                     Cart
                 </button>
             </Link>
+            </div>
 
         </nav>
+        
     );
 }
 
