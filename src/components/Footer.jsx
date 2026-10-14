@@ -12,7 +12,7 @@ const Footer = () => {
 
           <p>
             Explore the world of Marvel through an amazing collection
-            of comics, characters, stories and adventures.
+            of comics, characters, stories and adventures. theshyam__29 my instagram.....
           </p>
         </div>
 
@@ -41,8 +41,8 @@ const Footer = () => {
         <div className="footer-section footer-contact">
           <h3>Contact</h3>
 
-          <p>Email: marvelbooks@gmail.com</p>
-          <p>Phone: +91 98765 43210</p>
+          <p>Email: shyambairwa16@gmail.com</p>
+          <p>Phone: +91 6367443262</p>
           <p>India</p>
         </div>
 
@@ -53,11 +53,11 @@ const Footer = () => {
       <div className="footer-bottom">
 
         <p>
-          © 2026 Marvel Books. All Rights Reserved.
+          © 2026 Marvel Books. All Rights Reserved By TheShyam.
         </p>
 
         <div className="footer-social">
-          <a href="https://instagram.com" target="_blank" rel="noreferrer">
+          <a href="https://instagram.com/theshyam__29?vrfl=YTE2OWJ6bmRobnIz" target="_blank" rel="noreferrer">
             Instagram
           </a>
 
@@ -65,7 +65,7 @@ const Footer = () => {
             Facebook
           </a>
 
-          <a href="https://github.com" target="_blank" rel="noreferrer">
+          <a href="https://github.com/theshyam14581?tab=repositories" target="_blank" rel="noreferrer">
             GitHub
           </a>
         </div>
