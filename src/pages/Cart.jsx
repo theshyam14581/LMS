@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Card from '../components/Card'
 import bookData from '../../users.json'
+// import SearchBar from '../components/SearchBar'
 
 
 const Cart = () => {

@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Cart from "./pages/Cart";
 import Visitor from "./pages/Visitor";
+import About from "./pages/About"
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/visitor" element={<Visitor />} />
+                <Route path="/about" element={<About/>} />
             </Routes>
         </BrowserRouter>
     );

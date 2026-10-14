@@ -1,0 +1,448 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&display=swap');
+
+.about-page {
+    width: 100%;
+    min-height: 100vh;
+    background: #151923;
+    color: #F2F2F2;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+}
+
+.about-page * {
+    box-sizing: border-box;
+}
+
+.section-container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 75px 35px;
+}
+
+.about-hero {
+    min-height: 440px;
+    padding: 100px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(21, 25, 35, 0.96),
+            rgba(21, 25, 35, 0.88)
+        ),
+        url("https://wallpaperaccess.com/full/3187494.jpg");
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid #353B49;
+}
+
+.about-eyebrow {
+    margin: 0 0 14px;
+    color: #C5A15C;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.about-hero h1 {
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(42px, 7vw, 76px);
+    letter-spacing: 4px;
+    line-height: 1.1;
+}
+
+.about-hero h1 span {
+    color: #C5A15C;
+}
+
+.about-hero-text {
+    max-width: 720px;
+    margin: 22px 0 30px;
+    color: #AEB4C0;
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+.about-cta {
+    display: inline-block;
+    padding: 13px 25px;
+    background: #C5A15C;
+    color: #151923;
+    border: 1px solid #C5A15C;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.about-cta:hover {
+    background: #D8B976;
+    border-color: #D8B976;
+}
+
+.about-section-heading {
+    max-width: 750px;
+    margin: 0 auto 45px;
+    text-align: center;
+}
+
+.about-section-heading h2,
+.project-content h2 {
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(32px, 4vw, 48px);
+    letter-spacing: 2px;
+}
+
+.about-section-heading > p:last-child {
+    margin: 14px 0 0;
+    color: #AEB4C0;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.legend-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+}
+
+.legend-panel {
+    min-width: 0;
+    background: #202532;
+    border: 1px solid #353B49;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.legend-image-wrap {
+    width: 100%;
+    height: 340px;
+    background: #191E29;
+    border-bottom: 2px solid #C5A15C;
+    overflow: hidden;
+}
+
+.legend-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 25%;
+}
+
+.legend-content {
+    padding: 28px;
+}
+
+.legend-label {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #C5A15C;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.legend-content h3 {
+    margin: 0 0 17px;
+    color: #F2F2F2;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.legend-content p {
+    margin: 0 0 15px;
+    color: #AEB4C0;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.legend-content .legend-quote {
+    margin: 22px 0 0;
+    padding: 15px 18px;
+    background: #191E29;
+    border-left: 3px solid #C5A15C;
+    color: #E7CD91;
+    font-style: italic;
+}
+
+.about-history {
+    border-top: 1px solid #353B49;
+}
+
+.history-list {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.history-item {
+    display: grid;
+    grid-template-columns: 125px minmax(0, 1fr);
+    gap: 25px;
+    padding: 25px 0;
+    border-bottom: 1px solid #353B49;
+}
+
+.history-year {
+    align-self: start;
+    padding: 10px 12px;
+    background: #202532;
+    border: 1px solid #4A4438;
+    border-radius: 6px;
+    color: #C5A15C;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.history-content h3 {
+    margin: 0 0 10px;
+    color: #F2F2F2;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.history-content p {
+    margin: 0;
+    color: #AEB4C0;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.about-project {
+    padding: 65px 25px;
+    background: #202532;
+    border-top: 1px solid #353B49;
+    border-bottom: 1px solid #353B49;
+    text-align: center;
+}
+
+.project-content {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.project-content h2 {
+    color: #C5A15C;
+    font-size: 52px;
+}
+
+.project-content > p:not(.about-eyebrow) {
+    margin: 20px auto 25px;
+    color: #AEB4C0;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.project-tech {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.project-tech span {
+    padding: 9px 16px;
+    background: #151923;
+    border: 1px solid #353B49;
+    border-radius: 5px;
+    color: #C5A15C;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.team-member {
+    min-width: 0;
+    padding: 28px 23px;
+    background: #202532;
+    border: 1px solid #353B49;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.team-avatar {
+    width: 76px;
+    height: 76px;
+    margin: 0 auto 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #151923;
+    border: 2px solid #C5A15C;
+    border-radius: 50%;
+}
+
+.team-avatar span {
+    color: #C5A15C;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.team-role {
+    margin: 0 0 9px;
+    color: #C5A15C;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.team-member h3 {
+    margin: 0 0 13px;
+    color: #F2F2F2;
+    font-size: 20px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+.team-contribution {
+    margin: 0;
+    color: #AEB4C0;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.team-closing {
+    margin-top: 35px;
+    padding: 35px 20px;
+    background: #202532;
+    border: 1px solid #353B49;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.team-star {
+    color: #C5A15C;
+    font-size: 25px;
+}
+
+.team-closing h3 {
+    margin: 12px 0;
+    color: #C5A15C;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(22px, 3vw, 32px);
+    letter-spacing: 2px;
+}
+
+.team-closing p {
+    max-width: 650px;
+    margin: 0 auto 12px;
+    color: #AEB4C0;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+    .section-container {
+        padding: 60px 25px;
+    }
+
+    .legend-grid {
+        gap: 20px;
+    }
+
+    .legend-image-wrap {
+        height: 290px;
+    }
+
+    .legend-content {
+        padding: 22px;
+    }
+
+    .team-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .about-hero {
+        min-height: 390px;
+        padding: 75px 20px;
+    }
+
+    .about-hero h1 {
+        letter-spacing: 2px;
+    }
+
+    .about-hero-text {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .section-container {
+        padding: 45px 18px;
+    }
+
+    .about-section-heading {
+        margin-bottom: 30px;
+    }
+
+    .legend-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .legend-image-wrap {
+        height: 300px;
+    }
+
+    .legend-content {
+        padding: 22px 19px;
+    }
+
+    .legend-content h3 {
+        font-size: 29px;
+    }
+
+    .history-item {
+        grid-template-columns: 85px minmax(0, 1fr);
+        gap: 14px;
+        padding: 20px 0;
+    }
+
+    .history-year {
+        padding: 9px 5px;
+        font-size: 14px;
+    }
+
+    .history-content h3 {
+        font-size: 18px;
+    }
+
+    .history-content p {
+        font-size: 14px;
+    }
+
+    .about-project {
+        padding: 45px 18px;
+    }
+
+    .project-content h2 {
+        font-size: 42px;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .team-member {
+        padding: 25px 20px;
+    }
+}

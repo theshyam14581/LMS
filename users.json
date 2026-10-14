@@ -1,6 +1,9 @@
 [
+  { "image":"public/books/secret-war.jpg" , "id": 12, "title": "SECRET WAR","price":"200$", "author": "stan lee", "year": 1953 },
+  { "image":"public/books/infinity-stones.jpg" , "id": 12, "title": "INFINITY STONES","price":"200$", "author": "stan lee", "year": 1953 },
   { "image":"public/books/iron-man.jpg" ,"wepons":"public/wepons/arc-reactor.png", "price":"200$", "id": 1, "title": "IRON MAN", "author": "stan lee", "year": 1960, "genre": "Southern Gothic" },
   { "image":"public/books/hulk.jpg" , "id": 2, "title": "HULK", "price":"200$", "author": "stan lee", "year": 1949, "genre": "Dystopian" },
+  { "image":"public/books/the-wolvrine.jpg" , "id": 11, "title": "THE WOLVARINE", "price":"200$","author": "stan lee", "year": 1937, "genre": "Fantasy" },
   { "image":"public/books/dr-strange.jpg" , "id": 3, "title": "DR. STRANGE","price":"200$", "author": "stan lee", "year": 1813, "genre": "Romance" },
   { "image":"public/books/funtastic-four.jpg" , "id": 4, "title": "THE FUNTASTIC FOUR","price":"200$", "author": "stan lee", "year": 1925, "genre": "Tragedy" },
   { "image":"public/books/deadpool.jpg" , "id": 5, "title": "DEADPOOL","price":"200$", "author": "stan lee", "year": 1851, "genre": "Adventure" },
@@ -8,7 +11,7 @@
   { "image":"public/books/loki.jpg" , "id": 7, "title": "THE LOKI","price":"200$", "author": "stan lee", "year": 1603, "genre": "Tragedy" },
   { "image":"public/books/moon-knight.jpg" , "id": 8, "title": "THE MOON KNIGHT","price":"200$", "author": "stan lee", "year": -800, "genre": "Epic" },
   { "image":"public/books/new-day.jpg" , "id": 10, "title": "SPIDER MAN", "price":"200$","author": "stan lee", "year": 1951, "genre": "Realistic Fiction" },
-  { "image":"public/books/the-wolvrine.jpg" , "id": 11, "title": "THE WOLVARINE", "price":"200$","author": "stan lee", "year": 1937, "genre": "Fantasy" },
+  { "image":"public/books/thor.jpg" , "id": 12, "title": "THOR","price":"200$", "author": "stan lee", "year": 1953 },
   { "image":"public/books/wanda-vision.jpg" , "id": 12, "title": "WANDA VISION","price":"200$", "author": "stan lee", "year": 1953 },
   { "image":"public/books/x-man.jpg" , "id": 20, "title": "X-MEN","price":"200$", "author": "stan lee", "year": 1943, "genre": "Fable" }
 ]
